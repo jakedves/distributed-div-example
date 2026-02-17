@@ -1,4 +1,4 @@
-# Tenstorrent Example
+# Tenstorrent Example
 
 Current working example of taking a Fortran + OpenMP program, and compiling it to Metalium.
 
