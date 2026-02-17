@@ -2,6 +2,11 @@
 
 Current working example of taking a Fortran + OpenMP program, and compiling it to Metalium.
 
+It is the output of:
+```
+tt-xftn div.F90
+```
+
 What it performs:
 - Splits the computation between n == 2 cores
 - Each core computes it's bank address to read/write from via knowing it's rank (currently done on the baby RISC-V itself)
@@ -11,3 +16,4 @@ What it performs:
 
 Known issues:
 - Seems to override the first 1/4 of an input tile...?
+
